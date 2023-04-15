@@ -1,12 +1,12 @@
 import React from "react";
 import { Row, Col, Card } from "antd";
 import ServiceWrapper from "../Styles/ServiceDetail";
-import ser1 from "../../../assets/Images/ser1.svg";
-import ser2 from "../../../assets/Images/ser2.svg";
-import ser3 from "../../../assets/Images/ser3.svg";
-import ser4 from "../../../assets/Images/ser4.svg";
-import arrowRight from "../../../assets/Images/arrowRightW.svg";
-import CoverVideo from "../../../SharedComponent/CoverVideo";
+import ser1 from "assets/Images/ser1.svg";
+import ser2 from "assets/Images/ser2.svg";
+import ser3 from "assets/Images/ser3.svg";
+import ser4 from "assets/Images/ser4.svg";
+import arrowRight from "assets/Images/arrowRightW.svg";
+import CoverVideo from "components/SharedComponent/CoverVideo";
 
 const ServicesList = () => {
   return (

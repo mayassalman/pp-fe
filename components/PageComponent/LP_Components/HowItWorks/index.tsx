@@ -1,17 +1,17 @@
 import { Col, Row } from "antd";
 import React, { useEffect, useState, useRef } from "react";
 import Wrapper from "../Styles/HowItWorksStyle";
-import hiw_01 from "../../../assets/Images/hiw_01.svg";
-import hiw_02 from "../../../assets/Images/hiw_02.svg";
-import hiw_03 from "../../../assets/Images/hiw_03.svg";
-import hiw_04 from "../../../assets/Images/hiw_04.svg";
-import hiw_05 from "../../../assets/Images/hiw_05.svg";
-import step0 from "../../../assets/Images/step0.svg";
-import step1 from "../../../assets/Images/step1.svg";
-import step2 from "../../../assets/Images/step2.svg";
-import step3 from "../../../assets/Images/step3.svg";
-import step4 from "../../../assets/Images/step4.svg";
-import step5 from "../../../assets/Images/step5.svg";
+import hiw_01 from "assets/Images/hiw_01.svg";
+import hiw_02 from "assets/Images/hiw_02.svg";
+import hiw_03 from "assets/Images/hiw_03.svg";
+import hiw_04 from "assets/Images/hiw_04.svg";
+import hiw_05 from "assets/Images/hiw_05.svg";
+import step0 from "assets/Images/step0.svg";
+import step1 from "assets/Images/step1.svg";
+import step2 from "assets/Images/step2.svg";
+import step3 from "assets/Images/step3.svg";
+import step4 from "assets/Images/step4.svg";
+import step5 from "assets/Images/step5.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Keyboard, Mousewheel, Autoplay } from "swiper";
 

@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Keyboard } from "swiper";
 import RoadMapCard from "./RoadMapCard";
 import { Row, Col } from "antd";
-import arrow from "../../assets/Images/arrow.svg";
+import arrow from "assets/Images/arrow.svg";
 import { motion } from "framer-motion";
 
 const RoadmapSection = () => {
@@ -857,7 +857,7 @@ const RoadmapSection = () => {
             >
               {roadMapData?.map((item) => {
                 return (
-                  <SwiperSlide id={item?.id} value={item?.id} key={item?.id}>
+                  <SwiperSlide id={item?.id.toString()} key={item?.id}>
                     <Row>
                       <Col>
                         <h4>

@@ -1,6 +1,6 @@
 import React from "react";
 import HeroWrapper from "../Styles/HeroStyle";
-import darkRight from "/assets/Images/darkRight.svg";
+import darkRight from "assets/Images/darkRight.svg";
 import CoverVideo from "../../../SharedComponent/CoverVideo";
 import LogoRolls from "../LogoRolls";
 import { Navbar } from "../../../SharedComponent";

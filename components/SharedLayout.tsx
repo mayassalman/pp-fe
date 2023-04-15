@@ -1,20 +1,16 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
-import { Navbar, Footer } from './SharedComponent'
-
-
+import React from "react";
+import { Navbar, Footer } from "./SharedComponent";
 
 const SharedLayout = () => {
   return (
     <>
-    <main>
-      <div className='bottom-effect'></div>
-     
-        <Outlet />
-      <Footer />
-    </main>
-    </>
-  )
-}
+      <main>
+        <div className="bottom-effect"></div>
 
-export default SharedLayout
+        <Footer />
+      </main>
+    </>
+  );
+};
+
+export default SharedLayout;

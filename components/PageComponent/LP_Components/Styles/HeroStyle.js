@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { keyframes } from "styled-components";
-import bgHero from "../../../../assets/Images/bgHero.png";
+import bgHero from "assets/Images/bgHero.png";
 
 const gradient = keyframes`
 {
@@ -27,9 +27,9 @@ const HeroWrapper = styled.main`
   background-size: cover;
   background-repeat: no-repeat;
   // border-radius: 40%;
-  width:max-content;
-  position:relative;
-  z-index:10;
+  width: max-content;
+  position: relative;
+  z-index: 10;
 
   // .overlay{
   //   top:0;
@@ -43,9 +43,9 @@ const HeroWrapper = styled.main`
   //   // border-radius: 50%;
   // }
 
-  .wideContainer{
-    position:relative;
-    z-index:2;
+  .wideContainer {
+    position: relative;
+    z-index: 2;
   }
 
   h1 {
@@ -76,7 +76,7 @@ const HeroWrapper = styled.main`
       -webkit-background-clip: text;
       animation: ${gradient} 5s linear infinite;
       text-fill-color: transparent;
-      display:inline-block;
+      display: inline-block;
     }
   }
 
@@ -93,12 +93,11 @@ const HeroWrapper = styled.main`
     z-index: 100;
   }
 
-
   button {
     padding: 1.1rem 2.5rem;
     border: 0;
     border-radius: 60px;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
@@ -107,29 +106,23 @@ const HeroWrapper = styled.main`
     color: #06081e;
     position: relative;
     cursor: pointer;
-    background: linear-gradient(90.51deg, #87F9C2 8.05%, #6BB1D9 92.6%);
+    background: linear-gradient(90.51deg, #87f9c2 8.05%, #6bb1d9 92.6%);
     mix-blend-mode: normal;
 
-    :hover{
+    :hover {
       transform: scale(0.95);
     }
 
-
-    img{
-        margin-top:-0.3rem;
-        margin-left: 0.3rem;
+    img {
+      margin-top: -0.3rem;
+      margin-left: 0.3rem;
     }
-
   }
 
-
-
-  
-
-  @media screen and (min-width: 2000px) {}
+  @media screen and (min-width: 2000px) {
+  }
 
   @media screen and (min-width: 1600px) {
-
     min-height: calc(100vh - 20vh);
 
     button {
@@ -141,7 +134,6 @@ const HeroWrapper = styled.main`
       font-size: 105px;
       width: 100%;
     }
-
   }
 
   @media screen and (min-width: 1200px) and (max-width: 1450px) {
@@ -151,43 +143,34 @@ const HeroWrapper = styled.main`
   }
 
   @media screen and (min-width: 992px) and (max-width: 1199px) {
-
     h1 {
       font-size: 80px;
       width: 100%;
-
     }
 
     p {
       width: 75%;
     }
 
-    .overlay{
+    .overlay {
       // border-radius: 30%;
     }
   }
   @media screen and (min-width: 768px) and (max-width: 992px) {
-
-  
-    
-
     h1 {
       font-size: 72px;
       width: 100%;
-
     }
 
     p {
       width: 85%;
     }
 
-    
-    .overlay{
+    .overlay {
       // border-radius: 25%;
     }
   }
   @media screen and (min-width: 501px) and (max-width: 768px) {
-
     min-height: calc(100vh - 18vh);
 
     h1 {
@@ -195,21 +178,21 @@ const HeroWrapper = styled.main`
       width: 100%;
       // margin-top: 6rem;
     }
-    
-    .overlay{
+
+    .overlay {
       // border-radius: 10%;
     }
 
     p {
       width: 85%;
-      font-size:18px;
+      font-size: 18px;
     }
   }
 
   @media screen and (max-width: 500px) {
     min-height: calc(100vh - 18vh);
 
-    .overlay{
+    .overlay {
       // border-radius: 0%;
     }
 
@@ -220,14 +203,14 @@ const HeroWrapper = styled.main`
 
     p {
       width: 100%;
-      font-size:18px;
+      font-size: 18px;
     }
   }
 
   @media screen and (max-width: 380px) {
     min-height: calc(100vh - 18vh);
-    
-    .overlay{
+
+    .overlay {
       // border-radius: 0%;
     }
     h1 {
@@ -241,7 +224,7 @@ const HeroWrapper = styled.main`
 
     p {
       width: 100%;
-      font-size:18px;
+      font-size: 18px;
     }
   }
 
@@ -258,7 +241,7 @@ const HeroWrapper = styled.main`
 
     p {
       width: 100%;
-      font-size:18px;
+      font-size: 18px;
     }
   }
 `;

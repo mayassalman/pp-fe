@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NewsWrapper from "../Styles/NewsletterStyle";
-import arrowRight from "../../../assets/Images/arrowRightW.svg";
+import arrowRight from "assets/Images/arrowRightW.svg";
 import axios from "axios";
 
 const NewsletterSec = () => {

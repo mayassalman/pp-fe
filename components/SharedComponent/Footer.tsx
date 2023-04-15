@@ -1,18 +1,18 @@
 import { Row, Col } from "antd";
 import FooterWrapper from "./Styles/FooterStyles";
-import pantherLogo from "../../assets/Images/PantherLogo.svg";
+import pantherLogo from "assets/Images/PantherLogo.svg";
 import Link from "next/link";
-import { ROUTES } from "../../routes/constRoutes";
-import fb from "../../assets/Images/fb.svg";
-import tweet from "../../assets/Images/tweet.svg";
-import github from "../../assets/Images/github.svg";
-import instagram from "../../assets/Images/instagram.svg";
-import linkedin from "../../assets/Images/linkedin.svg";
-import PantherZKPVesting from "../../assets/resources/REP-Panther-ZKP-Vesting.pdf";
-import PantherOnePager from "../../assets/resources/Panther-Protocol-One-Pager.png";
-import PantherWhitePaper from "../../assets/resources/panther-protocol-v-1-0-1.pdf";
-import PantherLitePaper from "../../assets/resources/Panther_Litepaper_v1_0.pdf";
-import PantherZKPToken from "../../assets/resources/REP-Panther-ZKP-Token.pdf";
+import { ROUTES } from "utils/constRoutes";
+import fb from "assets/Images/fb.svg";
+import tweet from "assets/Images/tweet.svg";
+import github from "assets/Images/github.svg";
+import instagram from "assets/Images/instagram.svg";
+import linkedin from "assets/Images/linkedin.svg";
+import PantherZKPVesting from "assets/resources/REP-Panther-ZKP-Vesting.pdf";
+import PantherOnePager from "assets/resources/Panther-Protocol-One-Pager.png";
+import PantherWhitePaper from "assets/resources/panther-protocol-v-1-0-1.pdf";
+import PantherLitePaper from "assets/resources/Panther_Litepaper_v1_0.pdf";
+import PantherZKPToken from "assets/resources/REP-Panther-ZKP-Token.pdf";
 
 const Footer = () => {
   return (

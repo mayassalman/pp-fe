@@ -4,7 +4,7 @@ import BlogWrapper from "../Styles/BlogStyle";
 import BlogCard from "../../../SharedComponent/BlogCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Keyboard, Navigation } from "swiper";
-import arrowGreen from "/assets/Images/arrowGreen.svg";
+import arrowGreen from "assets/Images/arrowGreen.svg";
 import BlogData from "utils/BlogData";
 
 const BlogSection = () => {

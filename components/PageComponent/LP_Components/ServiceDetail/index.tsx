@@ -1,14 +1,14 @@
 import React from "react";
 import ServiceWrapper from "../Styles/ServiceStyle";
 import { Row, Col, Card } from "antd";
-import service1 from "../../../assets/Images/service1.svg";
-import service2 from "../../../assets/Images/service2.svg";
-import service3 from "../../../assets/Images/service3.svg";
-import service4 from "../../../assets/Images/service4.svg";
-import CoverVideo from "../../../SharedComponent/CoverVideo";
-import LockVideo from "../../../assets/lock.mp4";
-import Zones from "../../../assets/zones.mp4";
-import Shield from "../../../assets/Shield.mp4";
+import service1 from "assets/Images/service1.svg";
+import service2 from "assets/Images/service2.svg";
+import service3 from "assets/Images/service3.svg";
+import service4 from "assets/Images/service4.svg";
+import CoverVideo from "components/SharedComponent";
+import LockVideo from "assets/lock.mp4";
+import Zones from "assets/zones.mp4";
+import Shield from "assets/Shield.mp4";
 
 const ServiceDetail = () => {
   return (

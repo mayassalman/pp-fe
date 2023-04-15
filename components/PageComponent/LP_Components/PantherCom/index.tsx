@@ -1,9 +1,9 @@
 import React from "react";
 import CommunityWrapper from "../Styles/PantherCom";
 import { Row, Col, Card } from "antd";
-import twitterLogo from "../../../assets/Images/twitter.svg";
-import telegramLogo from "../../../assets/Images/telegram.svg";
-import discordLogo from "../../../assets/Images/discord.svg";
+import twitterLogo from "assets/Images/twitter.svg";
+import telegramLogo from "assets/Images/telegram.svg";
+import discordLogo from "assets/Images/discord.svg";
 import { motion } from "framer-motion";
 
 const PantherCom = () => {

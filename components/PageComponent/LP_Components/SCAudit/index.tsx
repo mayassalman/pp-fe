@@ -1,11 +1,11 @@
 import React from "react";
 import SCWrapper from "../Styles/SCStyle";
-import logo11 from "../../../assets/Images/certik.svg";
-import logo12 from "../../../assets/Images/analytics.svg";
-import arrowRight from "../../../assets/Images/ar-right.svg";
+import logo11 from "assets/Images/certik.svg";
+import logo12 from "assets/Images/analytics.svg";
+import arrowRight from "assets/Images/ar-right.svg";
 import { Row, Col } from "antd";
-import PantherZKPVesting from "../../../assets/resources/REP-Panther-ZKP-Vesting.pdf";
-import PantherZKPToken from "../../../assets/resources/REP-Panther-ZKP-Token.pdf";
+import PantherZKPVesting from "assets/resources/REP-Panther-ZKP-Vesting.pdf";
+import PantherZKPToken from "assets/resources/REP-Panther-ZKP-Token.pdf";
 
 const SCAudit = () => {
   return (

@@ -2,16 +2,16 @@ import React from "react";
 import PartnerWrapper from "../Styles/PartnerStyle";
 import { Row, Col } from "antd";
 import { motion } from "framer-motion";
-import logo1 from "../../../assets/Images/logo-1.svg";
-import logo2 from "../../../assets/Images/logo-2.svg";
-import logo3 from "../../../assets/Images/logo-3.svg";
-import logo4 from "../../../assets/Images/logo-4.svg";
-import logo5 from "../../../assets/Images/logo-5.svg";
-import logo6 from "../../../assets/Images/logo-6.svg";
-import logo7 from "../../../assets/Images/logo-7.svg";
-import logo8 from "../../../assets/Images/logo-8.svg";
-import logo9 from "../../../assets/Images/logo-9.svg";
-import logo10 from "../../../assets/Images/logo-10.svg";
+import logo1 from "assets/Images/logo-1.svg";
+import logo2 from "assets/Images/logo-2.svg";
+import logo3 from "assets/Images/logo-3.svg";
+import logo4 from "assets/Images/logo-4.svg";
+import logo5 from "assets/Images/logo-5.svg";
+import logo6 from "assets/Images/logo-6.svg";
+import logo7 from "assets/Images/logo-7.svg";
+import logo8 from "assets/Images/logo-8.svg";
+import logo9 from "assets/Images/logo-9.svg";
+import logo10 from "assets/Images/logo-10.svg";
 
 const Partners = () => {
   return (
