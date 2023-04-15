@@ -1,5 +1,5 @@
 import { Row, Col } from "antd";
-import FooterWrapper from "./Styles/FooterStyles";
+import FooterWrapper from "./Styles/FooterStyles.js";
 import pantherLogo from "assets/Images/PantherLogo.svg";
 import Link from "next/link";
 import { ROUTES } from "utils/constRoutes";

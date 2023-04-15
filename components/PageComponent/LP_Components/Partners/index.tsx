@@ -1,5 +1,5 @@
 import React from "react";
-import PartnerWrapper from "../Styles/PartnerStyle";
+import PartnerWrapper from "../Styles/PartnerStyle.js";
 import { Row, Col } from "antd";
 import { motion } from "framer-motion";
 import logo1 from "assets/Images/logo-1.svg";

@@ -1,5 +1,5 @@
 import React from "react";
-import CommunityWrapper from "../Styles/PantherCom";
+import CommunityWrapper from "../Styles/PantherCom.js";
 import { Row, Col, Card } from "antd";
 import twitterLogo from "assets/Images/twitter.svg";
 import telegramLogo from "assets/Images/telegram.svg";

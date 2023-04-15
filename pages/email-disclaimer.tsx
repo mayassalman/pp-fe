@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "./Styles/EmailDisclaimer";
+import Wrapper from "./Styles/EmailDisclaimer.js";
 import { Helmet } from "react-helmet";
 import OGImg from "assets/Images/og.jpg";
 import { Navbar } from "../components/SharedComponent";

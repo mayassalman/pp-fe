@@ -1,5 +1,5 @@
 import React from "react";
-import SCWrapper from "../Styles/SCStyle";
+import SCWrapper from "../Styles/SCStyle.js";
 import logo11 from "assets/Images/certik.svg";
 import logo12 from "assets/Images/analytics.svg";
 import arrowRight from "assets/Images/ar-right.svg";

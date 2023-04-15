@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import Wrapper from "./Styles/RoadMapStyles";
+import Wrapper from "./Styles/RoadMapStyles.js";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Keyboard } from "swiper";
 import RoadMapCard from "./RoadMapCard";

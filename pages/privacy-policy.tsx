@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "./Styles/PrivacyPolicy";
+import Wrapper from "./Styles/PrivacyPolicy.js";
 import { Helmet } from "react-helmet";
 import OGImg from "assets/Images/og.jpg";
 import { Navbar } from "../components/SharedComponent";
@@ -22,10 +22,10 @@ const PrivacyPolicy = () => {
           />
         </Helmet>
         <div className="container">
-          <section id="privacy-policy" class="privacy-policy">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-md-10 col-xl-9 text-center">
+          <section id="privacy-policy" className="privacy-policy">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-md-10 col-xl-9 text-center">
                   <h3>Panther Privacy Policy</h3>
                   <p>
                     This privacy policy will explain how Panther Ventures
@@ -33,9 +33,9 @@ const PrivacyPolicy = () => {
                     from you when you use our website.
                   </p>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> What data do we collect? </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io collects the following data:{" "}
                     </p>
@@ -44,9 +44,9 @@ const PrivacyPolicy = () => {
                     </ul>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> How do we collect your data? </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       You directly provide PantherProtocol.io with most of the
                       data we collect. We collect data and process data when
@@ -69,7 +69,7 @@ const PrivacyPolicy = () => {
                       </li>
                     </ul>
 
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io may also receive your data indirectly
                       from the following sources:{" "}
@@ -79,9 +79,9 @@ const PrivacyPolicy = () => {
                     </ul>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> How will we use your data? </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io collects your data so that we can:{" "}
                     </p>
@@ -93,23 +93,23 @@ const PrivacyPolicy = () => {
                         pantherprotocol.io or about Panther Protocol.{" "}
                       </li>
                     </ul>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io does not share or sell your data with
                       any other third party.{" "}
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> How do we store your data? </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io securely stores your data. The
                       strictest security policies and technologies are used to
                       keep your data secure.{" "}
                     </p>
                     <br />
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io securely stores your data. The
                       strictest security policies and technologies are used to
@@ -117,15 +117,15 @@ const PrivacyPolicy = () => {
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> Marketing </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io may send you information related to
                       Panther Protocol and its business.{" "}
                     </p>
                     <br />
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       You have the right at any time to stop PantherProtocol.io
                       from contacting you for any purposes. To do so, please
@@ -133,9 +133,9 @@ const PrivacyPolicy = () => {
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> What are your data protection rights? </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io would like to make sure you are fully
                       aware of all of your data protection rights. Every user is
@@ -182,7 +182,7 @@ const PrivacyPolicy = () => {
                         to you, under certain conditions.{" "}
                       </li>
                     </ul>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       If you make a request, we have one month to respond to
                       you. If you would like to exercise any of these rights,
@@ -190,9 +190,9 @@ const PrivacyPolicy = () => {
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> Cookies </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       Cookies are text files placed on your computer to collect
                       standard Internet log information and visitor behavior
@@ -201,15 +201,15 @@ const PrivacyPolicy = () => {
                       similar technology{" "}
                     </p>
                     <br />
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       For further information, visit allaboutcookies.org{" "}
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> How do we use cookies? </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       PantherProtocol.io uses cookies in a range of ways to
                       improve your experience on our website, including:{" "}
                     </p>
@@ -219,9 +219,9 @@ const PrivacyPolicy = () => {
                     </ul>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> What types of cookies do we use? </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       There are a number of different types of cookies, however,
                       our website uses:{" "}
@@ -246,9 +246,9 @@ const PrivacyPolicy = () => {
                     </ul>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> How to manage cookies </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       You can set your browser not to accept cookies, and the
                       above website tells you how to remove cookies from your
@@ -257,9 +257,9 @@ const PrivacyPolicy = () => {
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> Privacy policies of other websites </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io website contains links to other
                       websites. Our privacy policy applies only to our website,
@@ -268,9 +268,9 @@ const PrivacyPolicy = () => {
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> Changes to our privacy policy </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       PantherProtocol.io keeps its privacy policy under regular
                       review and places any updates on this web page. This
@@ -278,9 +278,9 @@ const PrivacyPolicy = () => {
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> How to contact us </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       If you have any questions about PantherProtocol.io privacy
                       policy, the data we hold on you, or you would like to
@@ -289,9 +289,9 @@ const PrivacyPolicy = () => {
                     </p>
                   </div>
 
-                  <div class="qna-block">
+                  <div className="qna-block">
                     <h4> How to contact the appropriate authority </h4>
-                    <p class="qna-block-desc">
+                    <p className="qna-block-desc">
                       {" "}
                       Should you wish to report a complaint or if you feel that
                       PantherProtocol.io has not addressed your concern in a

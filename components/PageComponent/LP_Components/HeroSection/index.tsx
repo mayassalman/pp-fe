@@ -1,5 +1,5 @@
 import React from "react";
-import HeroWrapper from "../Styles/HeroStyle";
+import HeroWrapper from "../Styles/HeroStyle.js";
 import darkRight from "assets/Images/darkRight.svg";
 import CoverVideo from "../../../SharedComponent/CoverVideo";
 import LogoRolls from "../LogoRolls";

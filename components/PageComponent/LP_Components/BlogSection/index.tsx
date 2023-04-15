@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
 import React, { useState, useRef } from "react";
-import BlogWrapper from "../Styles/BlogStyle";
+import BlogWrapper from "../Styles/BlogStyle.js";
 import BlogCard from "../../../SharedComponent/BlogCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Keyboard, Navigation } from "swiper";
@@ -62,7 +62,7 @@ const BlogSection = () => {
             onReachBeginning={() => {
               setReachBegin(true);
             }}
-            onBeforeInit={(swiper: any) => {
+            onBeforeInit={(swiper) => {
               swiperRef.current = swiper;
             }}
             pagination={{
@@ -111,7 +111,7 @@ const BlogSection = () => {
           >
             {BlogData?.map((item: any) => {
               return (
-                <SwiperSlide key={item.id}>
+                <SwiperSlide style={{ width: "300px" }} key={item.id}>
                   <BlogCard item={item} />
                 </SwiperSlide>
               );

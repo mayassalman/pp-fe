@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
 import React, { useEffect, useState, useRef } from "react";
-import Wrapper from "../Styles/HowItWorksStyle";
+import Wrapper from "../Styles/HowItWorksStyle.js";
 import hiw_01 from "assets/Images/hiw_01.svg";
 import hiw_02 from "assets/Images/hiw_02.svg";
 import hiw_03 from "assets/Images/hiw_03.svg";

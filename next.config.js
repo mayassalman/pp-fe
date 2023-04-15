@@ -1,5 +1,8 @@
+const withPlugins = require("next-compose-plugins");
+const withTM = require("next-transpile-modules")(["styled-components"]);
+
 // next.config.js
-module.exports = {
+module.exports = withPlugins([[withTM]], {
   // ...
   webpack(config) {
     config.module.rules.push({
@@ -32,4 +35,4 @@ module.exports = {
     });
     return config;
   },
-};
+});

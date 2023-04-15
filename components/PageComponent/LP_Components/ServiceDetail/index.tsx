@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceWrapper from "../Styles/ServiceStyle";
+import ServiceWrapper from "../Styles/ServiceStyle.js";
 import { Row, Col, Card } from "antd";
 import service1 from "assets/Images/service1.svg";
 import service2 from "assets/Images/service2.svg";

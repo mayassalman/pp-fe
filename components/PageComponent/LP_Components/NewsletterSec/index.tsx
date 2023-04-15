@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NewsWrapper from "../Styles/NewsletterStyle";
+import NewsWrapper from "../Styles/NewsletterStyle.js";
 import arrowRight from "assets/Images/arrowRightW.svg";
 import axios from "axios";
 import Image from "next/image";

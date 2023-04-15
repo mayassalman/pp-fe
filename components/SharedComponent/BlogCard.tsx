@@ -1,5 +1,4 @@
-import Wrapper from "@components/PageComponent/LP_Components/Styles/HowItWorksStyle";
-
+import Wrapper from "./Styles/BlogStyles.js";
 const BlogCard = ({ item }: any) => {
   return (
     <Wrapper>

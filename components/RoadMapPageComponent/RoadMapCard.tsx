@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "./Styles/RoadmapCard";
+import Wrapper from "./Styles/RoadmapCard.js";
 import { Card } from "antd";
 import checkedlist from "assets/Images/checkedlist.svg";
 import uncheckedlist from "assets/Images/uncheckedlist.svg";

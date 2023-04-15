@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import NavWrapper from "./Styles/NavbarStyles";
+import NavWrapper from "../Styles/NavbarStyles.js";
 import pantherLogo from "assets/Images/PantherLogo.svg";
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineDown } from "react-icons/ai";

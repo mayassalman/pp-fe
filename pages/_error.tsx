@@ -1,5 +1,5 @@
 import React from "react";
-import Wrapper from "./Styles/ErrorPage";
+import Wrapper from "./Styles/ErrorPage.js";
 import { Helmet } from "react-helmet";
 import Link from "next/link";
 import OGImg from "assets/Images/og.jpg";

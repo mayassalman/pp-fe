@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "antd";
-import RollsWrapper from "../Styles/LogoRolls";
+import RollsWrapper from "../Styles/LogoRolls.js";
 import ethereum from "assets/Images/ethereum.svg";
 import polygon from "assets/Images/polygon.svg";
 import flare from "assets/Images/flare.svg";

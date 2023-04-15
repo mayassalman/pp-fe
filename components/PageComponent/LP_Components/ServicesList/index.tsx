@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Card } from "antd";
-import ServiceWrapper from "../Styles/ServiceDetail";
+import ServiceWrapper from "../Styles/ServiceDetail.js";
 import ser1 from "assets/Images/ser1.svg";
 import ser2 from "assets/Images/ser2.svg";
 import ser3 from "assets/Images/ser3.svg";
