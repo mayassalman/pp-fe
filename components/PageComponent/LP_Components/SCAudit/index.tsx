@@ -4,11 +4,11 @@ import logo11 from "assets/Images/certik.svg";
 import logo12 from "assets/Images/analytics.svg";
 import arrowRight from "assets/Images/ar-right.svg";
 import { Row, Col } from "antd";
-import PantherZKPVesting from "assets/resources/REP-Panther-ZKP-Vesting.pdf";
-import PantherZKPToken from "assets/resources/REP-Panther-ZKP-Token.pdf";
 import Image from "next/image";
 
 const SCAudit = () => {
+  const PantherZKPVesting = require("assets/resources/REP-Panther-ZKP-Vesting.pdf");
+  const PantherZKPToken = require("assets/resources/REP-Panther-ZKP-Token.pdf");
   return (
     <SCWrapper>
       <div className="container">

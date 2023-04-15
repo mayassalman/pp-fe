@@ -1,7 +1,15 @@
+import { createGlobalStyle, ThemeProvider } from "styled-components";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import "styles/globals.css";
 
+const GlobalStyle = createGlobalStyle`
+  /* Your global styles */
+`;
+
+const theme = {
+  /* Your theme variables */
+};
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -64,7 +72,10 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <title>Panther Protocol</title>
       </Head>
-      <Component {...pageProps} />
+      <GlobalStyle />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

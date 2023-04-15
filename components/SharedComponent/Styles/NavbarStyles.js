@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-
-const NavWrapper = styled.main`
+const NavWrapper = styled.div`
 position:relative;
 z-index:20;
 
@@ -370,7 +369,6 @@ z-index:20;
 
 
 
-`
-
+`;
 
 export default NavWrapper;

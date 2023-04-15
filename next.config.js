@@ -3,8 +3,11 @@ const withTM = require("next-transpile-modules")(["styled-components"]);
 
 // next.config.js
 module.exports = withPlugins([[withTM]], {
+  compiler: {
+    styledComponents: true,
+  },
   // ...
-  webpack(config) {
+  webpack(config, { isServer }) {
     config.module.rules.push({
       test: /\.(mp4|webm)$/,
       use: {
@@ -23,12 +26,9 @@ module.exports = withPlugins([[withTM]], {
         {
           loader: "file-loader",
           options: {
-            // Output path for the PDF file
-            outputPath: "static/media",
-            // Public URL for the PDF file
-            publicPath: "/_next/static/media",
-            // Use the file name as the URL hash to avoid caching issues
-            name: "[name].[hash].[ext]",
+            publicPath: "/_next/static/files",
+            outputPath: `${isServer ? "../" : ""}static/files`,
+            name: "[name].[ext]",
           },
         },
       ],

@@ -2,10 +2,6 @@ import { Dropdown } from "antd";
 import pantherLogo from "assets/Images/PantherLogo.svg";
 import arrowRight from "assets/Images/arrowRightW.svg";
 import PantherOnePager from "assets/resources/Panther-Protocol-One-Pager.png";
-import PantherLitePaper from "assets/resources/Panther_Litepaper_v1_0.pdf";
-import PantherZKPToken from "assets/resources/REP-Panther-ZKP-Token.pdf";
-import PantherZKPVesting from "assets/resources/REP-Panther-ZKP-Vesting.pdf";
-import PantherWhitePaper from "assets/resources/panther-protocol-v-1-0-1.pdf";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -17,6 +13,11 @@ import { ROUTES } from "utils/constRoutes";
 import NavWrapper from "../Styles/NavbarStyles.js";
 
 const Navbar = () => {
+  const PantherLitePaper = require("assets/resources/Panther_Litepaper_v1_0.pdf");
+  const PantherZKPToken = require("assets/resources/REP-Panther-ZKP-Token.pdf");
+  const PantherZKPVesting = require("assets/resources/REP-Panther-ZKP-Vesting.pdf");
+  const PantherWhitePaper = require("assets/resources/panther-protocol-v-1-0-1.pdf");
+
   const lists = [
     {
       key: "1",

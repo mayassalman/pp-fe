@@ -6,12 +6,14 @@ import service2 from "assets/Images/service2.svg";
 import service3 from "assets/Images/service3.svg";
 import service4 from "assets/Images/service4.svg";
 import { CoverVideo } from "components/SharedComponent";
-import LockVideo from "assets/lock.mp4";
-import Zones from "assets/zones.mp4";
-import Shield from "assets/Shield.mp4";
+
 import Image from "next/image";
 
 const ServiceDetail = () => {
+  const LockVideo = require("assets/lock.mp4");
+  const Zones = require("assets/zones.mp4");
+  const Shield = require("assets/Shield.mp4");
+
   return (
     <div
       style={{
