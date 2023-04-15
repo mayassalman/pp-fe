@@ -7,6 +7,7 @@ import { Pagination, Keyboard, Navigation } from "swiper";
 import arrowGreen from "assets/Images/arrowGreen.svg";
 import BlogData from "utils/BlogData";
 import Image from "next/image";
+import "swiper/swiper-bundle.css";
 
 const BlogSection = () => {
   const swiperRef = useRef<any>();
