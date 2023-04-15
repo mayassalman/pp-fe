@@ -12,7 +12,7 @@ const BlogCard = ({ item }: any) => {
 
               <div className="div">
                 <p>{item?.date}</p>
-                {/* <p> <a target='_blank' href={item?.link}>Read more</a> <img src={arrowRight} alt='Panther Protocol' /></p> */}
+                {/* <p> <a target='_blank' href={item?.link}>Read more</a> <Image src={arrowRight} alt='Panther Protocol' /></p> */}
               </div>
             </a>
           </div>

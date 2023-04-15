@@ -5,6 +5,7 @@ import twitterLogo from "assets/Images/twitter.svg";
 import telegramLogo from "assets/Images/telegram.svg";
 import discordLogo from "assets/Images/discord.svg";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const PantherCom = () => {
   return (
@@ -32,7 +33,7 @@ const PantherCom = () => {
                   transition={{ ease: "easeOut", duration: 1.3, delay: 0.5 }}
                   viewport={{ once: true }}
                 >
-                  <img src={twitterLogo} alt="Panther Protocol" />
+                  <Image src={twitterLogo} alt="Panther Protocol" />
 
                   <div>
                     <h5>35,981 </h5>
@@ -57,7 +58,7 @@ const PantherCom = () => {
                   transition={{ ease: "easeOut", duration: 1.4, delay: 0.5 }}
                   viewport={{ once: true }}
                 >
-                  <img src={telegramLogo} alt="Panther Protocol" />
+                  <Image src={telegramLogo} alt="Panther Protocol" />
 
                   <div>
                     <h5>45,981 </h5>
@@ -82,7 +83,7 @@ const PantherCom = () => {
                   transition={{ ease: "easeOut", duration: 1.5, delay: 0.5 }}
                   viewport={{ once: true }}
                 >
-                  <img src={discordLogo} alt="Panther Protocol" />
+                  <Image src={discordLogo} alt="Panther Protocol" />
 
                   <div>
                     <h5>10,981 </h5>

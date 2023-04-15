@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import NewsWrapper from "../Styles/NewsletterStyle";
 import arrowRight from "assets/Images/arrowRightW.svg";
 import axios from "axios";
+import Image from "next/image";
 
 const NewsletterSec = () => {
   const [email, setEmail] = useState("");
@@ -103,7 +104,7 @@ const NewsletterSec = () => {
               <i className="i-overlay"></i>
             </div>
             <span> Sign Up </span>{" "}
-            <img src={arrowRight} alt="Panther Protocol" />
+            <Image src={arrowRight} alt="Panther Protocol" />
           </button>
           {/* </div> */}
         </div>

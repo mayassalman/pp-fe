@@ -4,6 +4,7 @@ import darkRight from "assets/Images/darkRight.svg";
 import CoverVideo from "../../../SharedComponent/CoverVideo";
 import LogoRolls from "../LogoRolls";
 import { Navbar } from "../../../SharedComponent";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
@@ -44,7 +45,7 @@ const HeroSection = () => {
             data-aos-delay="700"
           >
             <button>
-              Launch v0.5 <img src={darkRight} alt="Panther Protocol" />
+              Launch v0.5 <Image src={darkRight} alt="Panther Protocol" />
             </button>
           </div>
         </div>

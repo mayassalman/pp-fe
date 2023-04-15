@@ -5,10 +5,11 @@ import service1 from "assets/Images/service1.svg";
 import service2 from "assets/Images/service2.svg";
 import service3 from "assets/Images/service3.svg";
 import service4 from "assets/Images/service4.svg";
-import CoverVideo from "components/SharedComponent";
+import { CoverVideo } from "components/SharedComponent";
 import LockVideo from "assets/lock.mp4";
 import Zones from "assets/zones.mp4";
 import Shield from "assets/Shield.mp4";
+import Image from "next/image";
 
 const ServiceDetail = () => {
   return (
@@ -60,7 +61,7 @@ const ServiceDetail = () => {
                       loop
                     />
                   </div>
-                  {/* <img src={service1} alt='Panther Protocol' />  */}
+                  {/* <Image src={service1} alt='Panther Protocol' />  */}
                 </div>
                 <h5>Private Wallet</h5>
                 <p>
@@ -78,7 +79,7 @@ const ServiceDetail = () => {
                 data-aos-offset="200"
               >
                 <div className="img-container">
-                  <img src={service2} alt="Panther Protocol" />
+                  <Image src={service2} alt="Panther Protocol" />
                 </div>
                 <h5> Cross-chain Bridges </h5>
                 <p>
@@ -111,7 +112,7 @@ const ServiceDetail = () => {
                       loop
                     />
                   </div>
-                  {/* <img style={{marginTop:'7px'}} src={service3} alt='Panther Protocol' /> */}
+                  {/* <Image style={{marginTop:'7px'}} src={service3} alt='Panther Protocol' /> */}
                 </div>
                 <h5>DeFi Access </h5>
                 <p>
@@ -138,7 +139,7 @@ const ServiceDetail = () => {
                       loop
                     />
                   </div>
-                  {/* <img src={service4} alt='Panther Protocol' /> */}
+                  {/* <Image src={service4} alt='Panther Protocol' /> */}
                 </div>
 
                 <h5>Trusted Zones </h5>

@@ -7,6 +7,7 @@ import ser3 from "assets/Images/ser3.svg";
 import ser4 from "assets/Images/ser4.svg";
 import arrowRight from "assets/Images/arrowRightW.svg";
 import CoverVideo from "components/SharedComponent/CoverVideo";
+import Image from "next/image";
 
 const ServicesList = () => {
   return (
@@ -41,7 +42,7 @@ const ServicesList = () => {
               >
                 <h5>
                   {" "}
-                  <img src={ser1} alt="Panther Protocol" /> Permissioned
+                  <Image src={ser1} alt="Panther Protocol" /> Permissioned
                   environments{" "}
                 </h5>
                 <p>
@@ -60,7 +61,7 @@ const ServicesList = () => {
                 className="service-card"
               >
                 <h5>
-                  <img src={ser2} alt="Panther Protocol" /> OTC Desks{" "}
+                  <Image src={ser2} alt="Panther Protocol" /> OTC Desks{" "}
                 </h5>
                 <p>
                   Conduct private transactions within an on-chain Dark Pool.
@@ -78,8 +79,8 @@ const ServicesList = () => {
               >
                 <h5>
                   {" "}
-                  <img src={ser3} alt="Panther Protocol" /> On-chain compliance
-                  support{" "}
+                  <Image src={ser3} alt="Panther Protocol" /> On-chain
+                  compliance support{" "}
                 </h5>
                 <p>
                   Custom rules for Zone operators. KYB support to onboard crypto
@@ -98,7 +99,7 @@ const ServicesList = () => {
               >
                 <h5>
                   {" "}
-                  <img src={ser4} alt="Panther Protocol" /> DeFi access{" "}
+                  <Image src={ser4} alt="Panther Protocol" /> DeFi access{" "}
                 </h5>
                 <p>
                   Deploy assets to the most popular DeFi dApps and protocols for
@@ -119,7 +120,7 @@ const ServicesList = () => {
                 <i className="i-overlay"></i>
               </div>
               <span>Panther for Institutions</span>
-              <img src={arrowRight} alt="Panther Protocol" />
+              <Image src={arrowRight} alt="Panther Protocol" />
             </button>
           </div>
         </div>

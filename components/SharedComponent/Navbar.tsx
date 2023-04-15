@@ -14,6 +14,7 @@ import PantherWhitePaper from "assets/resources/panther-protocol-v-1-0-1.pdf";
 import PantherLitePaper from "assets/resources/Panther_Litepaper_v1_0.pdf";
 import PantherZKPToken from "assets/resources/REP-Panther-ZKP-Token.pdf";
 import arrowRight from "assets/Images/arrowRightW.svg";
+import Image from "next/image";
 
 const Navbar = () => {
   const lists = [
@@ -24,7 +25,7 @@ const Navbar = () => {
           onClick={() => setHovered(false)}
           className="dropdown-link"
           rel="noopener noreferrer"
-          to={ROUTES.ROADMAP}
+          href={ROUTES.ROADMAP}
         >
           Roadmap
         </Link>
@@ -174,8 +175,8 @@ const Navbar = () => {
       <div className={isOpen ? "main-nav-resp main-navbar" : "main-navbar"}>
         <div className="wideContainer">
           <div className="nav-container">
-            <Link to={ROUTES.INDEX}>
-              <img src={pantherLogo} alt="Panther Protocol Logo" />
+            <Link href={ROUTES.INDEX}>
+              <Image src={pantherLogo} alt="Panther Protocol Logo" />
             </Link>
             <ul className="hide-links">
               <li>
@@ -238,7 +239,7 @@ const Navbar = () => {
                   <i className="i-overlay"></i>
                 </div>
                 <span>Launch App </span>
-                <img src={arrowRight} alt="Panther Protocol" />{" "}
+                <Image src={arrowRight} alt="Panther Protocol" />{" "}
               </button>
             </a>
 
@@ -272,7 +273,7 @@ const Navbar = () => {
                     <Link
                       onClick={() => setIsOpen(false)}
                       rel="noopener noreferrer"
-                      to={ROUTES.ROADMAP}
+                      href={ROUTES.ROADMAP}
                     >
                       {" "}
                       <li>Roadmap</li>
@@ -319,7 +320,7 @@ const Navbar = () => {
                     </a>
                     <Link
                       onClick={() => setIsOpen(false)}
-                      to={PantherZKPVesting}
+                      href={PantherZKPVesting}
                       target="_blank"
                     >
                       <li>
@@ -398,7 +399,7 @@ const Navbar = () => {
                       <i className="i-overlay"></i>
                     </div>
                     <span>Launch App</span>{" "}
-                    <img src={arrowRight} alt="Panther Protocol" />
+                    <Image src={arrowRight} alt="Panther Protocol" />
                   </button>
                 </a>
               </div>

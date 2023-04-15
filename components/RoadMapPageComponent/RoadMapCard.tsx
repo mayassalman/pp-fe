@@ -4,6 +4,7 @@ import { Card } from "antd";
 import checkedlist from "assets/Images/checkedlist.svg";
 import uncheckedlist from "assets/Images/uncheckedlist.svg";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const RoadMapCard = ({ data }: any) => {
   return (
@@ -20,7 +21,7 @@ const RoadMapCard = ({ data }: any) => {
             {data?.data?.map((details: any) => {
               return (
                 <li key={details.id} className="li-dot">
-                  <img
+                  <Image
                     src={details?.checked ? checkedlist : uncheckedlist}
                     alt="li-dot"
                   />

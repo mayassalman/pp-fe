@@ -6,6 +6,7 @@ import arrowRight from "assets/Images/ar-right.svg";
 import { Row, Col } from "antd";
 import PantherZKPVesting from "assets/resources/REP-Panther-ZKP-Vesting.pdf";
 import PantherZKPToken from "assets/resources/REP-Panther-ZKP-Token.pdf";
+import Image from "next/image";
 
 const SCAudit = () => {
   return (
@@ -26,10 +27,10 @@ const SCAudit = () => {
             >
               <div className="sec-overlay">
                 <div className="sec-layer">
-                  <img src={logo11} alt="Panther Protocol" />
+                  <Image src={logo11} alt="Panther Protocol" />
                   <h5>
                     <span> Panther ZKP MASP Audit </span>{" "}
-                    <img src={arrowRight} alt="Panther Protocol" />
+                    <Image src={arrowRight} alt="Panther Protocol" />
                   </h5>
                 </div>
               </div>
@@ -51,10 +52,10 @@ const SCAudit = () => {
                   href={PantherZKPVesting}
                 >
                   <div className="sec-layer">
-                    <img src={logo12} alt="Panther Protocol" />
+                    <Image src={logo12} alt="Panther Protocol" />
                     <h5>
                       <span>Panther ZKP Vesting Audit</span>{" "}
-                      <img src={arrowRight} alt="Panther Protocol" />{" "}
+                      <Image src={arrowRight} alt="Panther Protocol" />{" "}
                     </h5>
                   </div>
                 </a>
@@ -77,10 +78,10 @@ const SCAudit = () => {
                   href={PantherZKPVesting}
                 >
                   <div className="sec-layer">
-                    <img src={logo11} alt="Panther Protocol" />
+                    <Image src={logo11} alt="Panther Protocol" />
                     <h5>
                       <span>Panther ZKP Token Audit </span>{" "}
-                      <img src={arrowRight} alt="Panther Protocol" />{" "}
+                      <Image src={arrowRight} alt="Panther Protocol" />{" "}
                     </h5>
                   </div>
                 </a>
@@ -98,10 +99,10 @@ const SCAudit = () => {
             >
               <div className="sec-overlay">
                 <div className="sec-layer">
-                  <img src={logo11} alt="Panther Protocol" />
+                  <Image src={logo11} alt="Panther Protocol" />
                   <h5>
                     <span>Panther v0.5 Audit </span>{" "}
-                    <img src={arrowRight} alt="Panther Protocol" />{" "}
+                    <Image src={arrowRight} alt="Panther Protocol" />{" "}
                   </h5>
                 </div>
               </div>

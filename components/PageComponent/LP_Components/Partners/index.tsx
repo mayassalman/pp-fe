@@ -12,6 +12,7 @@ import logo7 from "assets/Images/logo-7.svg";
 import logo8 from "assets/Images/logo-8.svg";
 import logo9 from "assets/Images/logo-9.svg";
 import logo10 from "assets/Images/logo-10.svg";
+import Image from "next/image";
 
 const Partners = () => {
   return (
@@ -38,7 +39,7 @@ const Partners = () => {
                 target="_blank"
               >
                 {" "}
-                <img
+                <Image
                   className="partners_logo elrond"
                   src={logo1}
                   alt="Panther Protocol"
@@ -59,7 +60,7 @@ const Partners = () => {
                 target="_blank"
               >
                 {" "}
-                <img
+                <Image
                   className="partners_logo polygon"
                   src={logo2}
                   alt="Panther Protocol"
@@ -79,7 +80,7 @@ const Partners = () => {
                 rel="nofollow noopener noreferrer"
                 target="_blank"
               >
-                <img
+                <Image
                   className="partners_logo flare"
                   src={logo3}
                   alt="Panther Protocol"
@@ -100,7 +101,7 @@ const Partners = () => {
                 target="_blank"
               >
                 {" "}
-                <img
+                <Image
                   className=" partners_logo near"
                   src={logo4}
                   alt="Panther Protocol"
@@ -121,7 +122,7 @@ const Partners = () => {
                 target="_blank"
               >
                 {" "}
-                <img
+                <Image
                   className="partners_logo bumper"
                   src={logo5}
                   alt="Panther Protocol"
@@ -142,7 +143,7 @@ const Partners = () => {
                 target="_blank"
               >
                 {" "}
-                <img
+                <Image
                   className=" partners_logo net-trading"
                   src={logo6}
                   alt="Panther Protocol"
@@ -162,7 +163,7 @@ const Partners = () => {
                 rel="nofollow noopener noreferrer"
                 target="_blank"
               >
-                <img
+                <Image
                   className="partners_logo supra-oracles"
                   src={logo7}
                   alt="Panther Protocol"
@@ -182,7 +183,7 @@ const Partners = () => {
                 rel="nofollow noopener noreferrer"
                 target="_blank"
               >
-                <img
+                <Image
                   className="partners_logo shyft"
                   src={logo8}
                   alt="Panther Protocol"
@@ -202,7 +203,7 @@ const Partners = () => {
                 rel="nofollow noopener noreferrer"
                 target="_blank"
               >
-                <img
+                <Image
                   className="partners_logo firo"
                   src={logo9}
                   alt="Panther Protocol"
@@ -223,7 +224,7 @@ const Partners = () => {
                 target="_blank"
               >
                 {" "}
-                <img
+                <Image
                   className="partners_logo sentinel"
                   src={logo10}
                   alt="Panther Protocol"

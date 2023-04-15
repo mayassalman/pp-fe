@@ -6,6 +6,7 @@ import RoadMapCard from "./RoadMapCard";
 import { Row, Col } from "antd";
 import arrow from "assets/Images/arrow.svg";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const RoadmapSection = () => {
   const swiperRef = useRef<any>();
@@ -767,7 +768,7 @@ const RoadmapSection = () => {
               swiperRef.current?.slidePrev();
             }}
           >
-            <img className="prev-btn" src={arrow} alt="Prev" />
+            <Image className="prev-btn" src={arrow} alt="Prev" />
           </button>
           <button
             disabled={reachEnd}
@@ -775,7 +776,7 @@ const RoadmapSection = () => {
               swiperRef.current?.slideNext();
             }}
           >
-            <img className="next-btn" src={arrow} alt="Next" />
+            <Image className="next-btn" src={arrow} alt="Next" />
           </button>
         </motion.div>
       </div>

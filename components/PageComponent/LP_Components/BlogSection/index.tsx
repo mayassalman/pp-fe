@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Keyboard, Navigation } from "swiper";
 import arrowGreen from "assets/Images/arrowGreen.svg";
 import BlogData from "utils/BlogData";
+import Image from "next/image";
 
 const BlogSection = () => {
   const swiperRef = useRef<any>();
@@ -125,14 +126,14 @@ const BlogSection = () => {
           >
             <p>
               <span>Visit our blog</span>{" "}
-              <img src={arrowGreen} alt="Arrow Right - Panther Protocol" />
+              <Image src={arrowGreen} alt="Arrow Right - Panther Protocol" />
             </p>
           </a>
         </Row>
 
         <div className="slider-btn">
           <div>
-            <img
+            <Image
               style={{ opacity: reachBegin ? "0.2" : "1" }}
               className=" slide-left"
               onClick={() => {
@@ -141,7 +142,7 @@ const BlogSection = () => {
               src={arrowGreen}
               alt="Left Arrow"
             />
-            <img
+            <Image
               style={{ opacity: reachEnd ? "0.2" : "1" }}
               className=" slide-right"
               onClick={() => {

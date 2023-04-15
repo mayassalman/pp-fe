@@ -14,6 +14,7 @@ import step4 from "assets/Images/step4.svg";
 import step5 from "assets/Images/step5.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Keyboard, Mousewheel, Autoplay } from "swiper";
+import Image from "next/image";
 
 const HowItWorks = () => {
   const ref = useRef<any>(null);
@@ -69,7 +70,7 @@ const HowItWorks = () => {
         touchReleaseOnEdges={true}
         mousewheel={{
           releaseOnEdges: true,
-          enabled: true,
+          // enabled: true,
         }}
         pagination={{
           clickable: true,
@@ -132,7 +133,7 @@ const HowItWorks = () => {
 
             <Col className="works_img " xs={24} sm={24} md={12} lg={12} xl={12}>
               <div className="img1">
-                <img src={hiw_01} alt="Panther Protocol" />
+                <Image src={hiw_01} alt="Panther Protocol" />
               </div>
             </Col>
           </Row>
@@ -151,17 +152,17 @@ const HowItWorks = () => {
               <div className="works_box">
                 <div>
                   <div className="steps-container">
-                    <img
+                    <Image
                       onClick={() => setSlide(0)}
                       src={slide === 0 ? step2 : step3}
                       alt="Panther Protocol"
                     />
-                    <img
+                    <Image
                       onClick={() => setSlide(1)}
                       src={slide === 1 ? step4 : step0}
                       alt="Panther Protocol"
                     />
-                    <img
+                    <Image
                       onClick={() => setSlide(2)}
                       src={slide === 2 ? step5 : step1}
                       alt="Panther Protocol"
@@ -186,7 +187,7 @@ const HowItWorks = () => {
 
             <Col className="works_img " xs={24} sm={24} md={12} lg={12} xl={12}>
               <div className="img1 img2">
-                <img src={hiw_02} alt="Panther Protocol" />
+                <Image src={hiw_02} alt="Panther Protocol" />
               </div>
             </Col>
           </Row>
@@ -205,17 +206,17 @@ const HowItWorks = () => {
               <div className="works_box">
                 <div>
                   <div className="steps-container">
-                    <img
+                    <Image
                       onClick={() => setSlide(0)}
                       src={slide === 0 ? step2 : step3}
                       alt="Panther Protocol"
                     />
-                    <img
+                    <Image
                       onClick={() => setSlide(1)}
                       src={slide === 1 ? step4 : step0}
                       alt="Panther Protocol"
                     />
-                    <img
+                    <Image
                       onClick={() => setSlide(2)}
                       src={slide === 2 ? step5 : step1}
                       alt="Panther Protocol"
@@ -238,7 +239,7 @@ const HowItWorks = () => {
 
             <Col className="works_img" xs={24} sm={24} md={12} lg={12} xl={12}>
               <div className="img1 img2">
-                <img src={hiw_03} alt="Panther Protocol" />
+                <Image src={hiw_03} alt="Panther Protocol" />
               </div>
             </Col>
           </Row>
@@ -257,17 +258,17 @@ const HowItWorks = () => {
               <div className="works_box">
                 <div>
                   <div className="steps-container">
-                    <img
+                    <Image
                       onClick={() => setSlide(0)}
                       src={slide === 0 ? step2 : step3}
                       alt="Panther Protocol"
                     />
-                    <img
+                    <Image
                       onClick={() => setSlide(1)}
                       src={slide === 1 ? step4 : step0}
                       alt="Panther Protocol"
                     />
-                    <img
+                    <Image
                       onClick={() => setSlide(2)}
                       src={slide === 2 ? step5 : step1}
                       alt="Panther Protocol"
@@ -293,7 +294,7 @@ const HowItWorks = () => {
 
             <Col className="works_img" xs={24} sm={24} md={12} lg={12} xl={12}>
               <div className="img1 img2">
-                <img src={hiw_04} alt="Panther Protocol" />
+                <Image src={hiw_04} alt="Panther Protocol" />
               </div>
             </Col>
           </Row>
@@ -328,7 +329,7 @@ const HowItWorks = () => {
 
             <Col className="works_img " xs={24} sm={24} md={12} lg={12} xl={12}>
               <div className="img1">
-                <img src={hiw_05} alt="Panther Protocol" />
+                <Image src={hiw_05} alt="Panther Protocol" />
               </div>
             </Col>
           </Row>

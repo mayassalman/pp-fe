@@ -13,6 +13,7 @@ import PantherOnePager from "assets/resources/Panther-Protocol-One-Pager.png";
 import PantherWhitePaper from "assets/resources/panther-protocol-v-1-0-1.pdf";
 import PantherLitePaper from "assets/resources/Panther_Litepaper_v1_0.pdf";
 import PantherZKPToken from "assets/resources/REP-Panther-ZKP-Token.pdf";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -23,7 +24,7 @@ const Footer = () => {
             <Col xs={24} sm={24} md={14} lg={16} xl={16}>
               <div className="ft-about">
                 <Link href={ROUTES.INDEX}>
-                  <img src={pantherLogo} alt="Panther Protocol" />
+                  <Image src={pantherLogo} alt="Panther Protocol" />
                 </Link>
                 <p>
                   {" "}
@@ -34,11 +35,11 @@ const Footer = () => {
               </div>
 
               <div className="social-media-links">
-                <img src={fb} alt="Panther Protocol on Facebook" />
-                <img src={linkedin} alt="Panther Protocol on LinkedIn" />
-                <img src={github} alt="Panther Protocol on GitHub" />
-                <img src={tweet} alt="Panther Protocol on Twitter" />
-                <img src={instagram} alt="Panther Protocol on Instagram" />
+                <Image src={fb} alt="Panther Protocol on Facebook" />
+                <Image src={linkedin} alt="Panther Protocol on LinkedIn" />
+                <Image src={github} alt="Panther Protocol on GitHub" />
+                <Image src={tweet} alt="Panther Protocol on Twitter" />
+                <Image src={instagram} alt="Panther Protocol on Instagram" />
               </div>
             </Col>
             <Col xs={12} sm={12} md={5} lg={4} xl={4}>

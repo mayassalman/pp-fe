@@ -7,6 +7,7 @@ import flare from "assets/Images/flare.svg";
 import avalanche from "assets/Images/avalanche.svg";
 import near from "assets/Images/near.svg";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const LogoRolls = () => {
   return (
@@ -25,7 +26,7 @@ const LogoRolls = () => {
               }}
               viewport={{ once: true }}
             >
-              <img
+              <Image
                 className=" partners_logo ethereum"
                 src={ethereum}
                 alt="Panther Protocol"
@@ -44,7 +45,7 @@ const LogoRolls = () => {
               }}
               viewport={{ once: true }}
             >
-              <img
+              <Image
                 className=" partners_logo polygon"
                 src={polygon}
                 alt="Panther Protocol"
@@ -63,7 +64,7 @@ const LogoRolls = () => {
               }}
               viewport={{ once: true }}
             >
-              <img
+              <Image
                 className="partners_logo flare"
                 src={flare}
                 alt="Panther Protocol"
@@ -82,7 +83,7 @@ const LogoRolls = () => {
               }}
               viewport={{ once: true }}
             >
-              <img
+              <Image
                 className="partners_logo avalanche"
                 src={avalanche}
                 alt="Panther Protocol"
@@ -101,7 +102,7 @@ const LogoRolls = () => {
               }}
               viewport={{ once: true }}
             >
-              <img
+              <Image
                 className="partners_logo near"
                 src={near}
                 alt="Panther Protocol"
