@@ -6,7 +6,7 @@ import ser2 from "assets/Images/ser2.svg";
 import ser3 from "assets/Images/ser3.svg";
 import ser4 from "assets/Images/ser4.svg";
 import arrowRight from "assets/Images/arrowRightW.svg";
-import CoverVideo from "components/SharedComponent/CoverVideo";
+import { CoverVideo } from "@components/SharedComponent";
 import Image from "next/image";
 
 const ServicesList = () => {

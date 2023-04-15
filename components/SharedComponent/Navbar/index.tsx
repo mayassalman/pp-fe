@@ -1,20 +1,20 @@
-import { useEffect, useState } from "react";
-import NavWrapper from "../Styles/NavbarStyles.js";
-import pantherLogo from "assets/Images/PantherLogo.svg";
-import { FiMenu } from "react-icons/fi";
-import { AiOutlineDown } from "react-icons/ai";
-import { RxCross1 } from "react-icons/rx";
 import { Dropdown } from "antd";
-import { BiLinkExternal } from "react-icons/bi";
-import Link from "next/link";
-import { ROUTES } from "utils/constRoutes";
-import PantherZKPVesting from "assets/resources/REP-Panther-ZKP-Vesting.pdf";
+import pantherLogo from "assets/Images/PantherLogo.svg";
+import arrowRight from "assets/Images/arrowRightW.svg";
 import PantherOnePager from "assets/resources/Panther-Protocol-One-Pager.png";
-import PantherWhitePaper from "assets/resources/panther-protocol-v-1-0-1.pdf";
 import PantherLitePaper from "assets/resources/Panther_Litepaper_v1_0.pdf";
 import PantherZKPToken from "assets/resources/REP-Panther-ZKP-Token.pdf";
-import arrowRight from "assets/Images/arrowRightW.svg";
+import PantherZKPVesting from "assets/resources/REP-Panther-ZKP-Vesting.pdf";
+import PantherWhitePaper from "assets/resources/panther-protocol-v-1-0-1.pdf";
 import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { AiOutlineDown } from "react-icons/ai";
+import { BiLinkExternal } from "react-icons/bi";
+import { FiMenu } from "react-icons/fi";
+import { RxCross1 } from "react-icons/rx";
+import { ROUTES } from "utils/constRoutes";
+import NavWrapper from "../Styles/NavbarStyles.js";
 
 const Navbar = () => {
   const lists = [

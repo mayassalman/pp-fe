@@ -1,6 +1,5 @@
-import React from "react";
-import styled from "styled-components";
 import coverVideo from "assets/bg_video.mp4";
+import styled from "styled-components";
 
 const VideoContainer = styled.section`
   width: 100%;

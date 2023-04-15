@@ -1,7 +1,7 @@
 import { Col, Row } from "antd";
 import React, { useState, useRef } from "react";
 import BlogWrapper from "../Styles/BlogStyle.js";
-import BlogCard from "../../../SharedComponent/BlogCard";
+import { BlogCard } from "components/SharedComponent";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Keyboard, Navigation } from "swiper";
 import arrowGreen from "assets/Images/arrowGreen.svg";

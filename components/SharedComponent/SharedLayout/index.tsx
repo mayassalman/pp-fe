@@ -1,5 +1,4 @@
-import React from "react";
-import { Navbar, Footer } from "./SharedComponent";
+import { Footer } from "..";
 
 const SharedLayout = () => {
   return (

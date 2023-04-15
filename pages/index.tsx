@@ -1,19 +1,15 @@
-import React from "react";
 import OGImg from "assets/Images/og.jpg";
-import { Helmet } from "react-helmet";
-import { Navbar } from "../components/SharedComponent";
 import {
+  BlogSection,
+  HeroSection,
+  HowItWorks,
   NewsletterSec,
-  PantherCom,
   Partners,
   SCAudit,
-  HeroSection,
-  LogoRolls,
   ServiceDetail,
   ServicesList,
-  BlogSection,
-  HowItWorks,
-} from "../components/PageComponent/LP_Components";
+} from "components/PageComponent/LP_Components";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (

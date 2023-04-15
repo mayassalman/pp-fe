@@ -1,12 +1,12 @@
-import React, { useState, useRef } from "react";
-import Wrapper from "./Styles/RoadMapStyles.js";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Keyboard } from "swiper";
-import RoadMapCard from "./RoadMapCard";
-import { Row, Col } from "antd";
+import { Col, Row } from "antd";
 import arrow from "assets/Images/arrow.svg";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useRef, useState } from "react";
+import { Keyboard, Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import RoadMapCard from "./RoadMapCard";
+import Wrapper from "./Styles/RoadMapStyles.js";
 
 const RoadmapSection = () => {
   const swiperRef = useRef<any>();

@@ -1,10 +1,9 @@
-import React from "react";
-import Wrapper from "./Styles/RoadmapCard.js";
 import { Card } from "antd";
 import checkedlist from "assets/Images/checkedlist.svg";
 import uncheckedlist from "assets/Images/uncheckedlist.svg";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Wrapper from "./Styles/RoadmapCard.js";
 
 const RoadMapCard = ({ data }: any) => {
   return (

@@ -1,6 +1,5 @@
-import React from "react";
-import Wrapper from "./Styles/TopSectionStyles.js";
 import { motion } from "framer-motion";
+import Wrapper from "./Styles/TopSectionStyles.js";
 
 const TopSection = () => {
   return (

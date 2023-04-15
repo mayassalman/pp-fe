@@ -1,8 +1,7 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import { TopSection, RoadmapSection } from "../components/RoadMapPageComponent";
 import OGImg from "assets/Images/og.jpg";
-import { Navbar } from "../components/SharedComponent";
+import { RoadmapSection, TopSection } from "components/RoadMapPageComponent";
+import { Navbar } from "components/SharedComponent";
+import { Helmet } from "react-helmet";
 
 const RoadMap = () => {
   return (
@@ -10,7 +9,7 @@ const RoadMap = () => {
       <Navbar />
       <Helmet>
         <title> Roadmap </title>
-        <meta property="og:image" content={OGImg} />
+        <meta property="og:image" content={OGImg.src} />
         <meta property="og:title" content="Roadmap - Panther Protocol" />
         <meta
           property="og:description"

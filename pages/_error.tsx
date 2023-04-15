@@ -1,10 +1,9 @@
-import React from "react";
-import Wrapper from "./Styles/ErrorPage.js";
-import { Helmet } from "react-helmet";
-import Link from "next/link";
 import OGImg from "assets/Images/og.jpg";
+import { Navbar } from "components/SharedComponent";
+import Link from "next/link";
+import { Helmet } from "react-helmet";
 import { ROUTES } from "utils/constRoutes";
-import { Navbar } from "../components/SharedComponent";
+import Wrapper from "./Styles/ErrorPage.js";
 
 const ErrorPage = () => {
   return (

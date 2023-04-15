@@ -1,9 +1,9 @@
 import React from "react";
 import HeroWrapper from "../Styles/HeroStyle.js";
 import darkRight from "assets/Images/darkRight.svg";
-import CoverVideo from "../../../SharedComponent/CoverVideo";
+import { CoverVideo } from "components/SharedComponent";
 import LogoRolls from "../LogoRolls";
-import { Navbar } from "../../../SharedComponent";
+import { Navbar } from "components/SharedComponent";
 import Image from "next/image";
 
 const HeroSection = () => {

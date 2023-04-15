@@ -1,13 +1,12 @@
-import React from "react";
-import Wrapper from "./Styles/EmailDisclaimer.js";
-import { Helmet } from "react-helmet";
 import OGImg from "assets/Images/og.jpg";
-import { Navbar } from "../components/SharedComponent";
+import { Navbar } from "components/SharedComponent";
+import { Helmet } from "react-helmet";
+import Wrapper from "./Styles/EmailDisclaimer.js";
 
 const EmailDisclaimer = () => {
   return (
     <>
-      <Navbar />{" "}
+      <Navbar />
       <Wrapper>
         <Helmet>
           <title> Email Disclaimer Page </title>

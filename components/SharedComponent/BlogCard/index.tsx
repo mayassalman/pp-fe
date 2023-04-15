@@ -1,4 +1,4 @@
-import Wrapper from "./Styles/BlogStyles.js";
+import Wrapper from "../Styles/BlogStyles.js";
 const BlogCard = ({ item }: any) => {
   return (
     <Wrapper>

@@ -1,8 +1,7 @@
-import React from "react";
-import Wrapper from "./Styles/PrivacyPolicy.js";
-import { Helmet } from "react-helmet";
 import OGImg from "assets/Images/og.jpg";
-import { Navbar } from "../components/SharedComponent";
+import { Navbar } from "components/SharedComponent";
+import { Helmet } from "react-helmet";
+import Wrapper from "./Styles/PrivacyPolicy.js";
 
 const PrivacyPolicy = () => {
   return (
@@ -11,7 +10,7 @@ const PrivacyPolicy = () => {
       <Wrapper>
         <Helmet>
           <title> Privacy Policy </title>
-          <meta property="og:image" content={OGImg} />
+          <meta property="og:image" content={OGImg.src} />
           <meta
             property="og:title"
             content="Privacy Policy - Panther Protocol"
